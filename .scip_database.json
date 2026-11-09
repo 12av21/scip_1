@@ -1,0 +1,3251 @@
+{
+  "users": [
+    {
+      "id": "USR-ADMIN-01",
+      "name": "Adarsh Verma",
+      "email": "admin@scip.gov",
+      "passwordHash": "$2a$10$w1qZ3PjG2h1bFfLdJtT7UOPV2yR6j0K8u6C7vL2bZ4xPq6c7s9A2m",
+      "role": "admin",
+      "phone": "+91-98765-43210",
+      "status": "active",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "USR-AUTH-01",
+      "name": "Dr. Rajesh Gupta",
+      "email": "director@scip.gov",
+      "passwordHash": "$2a$10$w1qZ3PjG2h1bFfLdJtT7UOPV2yR6j0K8u6C7vL2bZ4xPq6c7s9A2m",
+      "role": "authority",
+      "phone": "+91-98765-43211",
+      "status": "active",
+      "createdAt": "2026-01-05T09:30:00.000Z",
+      "updatedAt": "2026-01-05T09:30:00.000Z"
+    },
+    {
+      "id": "USR-OFF-01",
+      "name": "Vikram Sharma",
+      "email": "officer.sharma@scip.gov",
+      "passwordHash": "$2a$10$w1qZ3PjG2h1bFfLdJtT7UOPV2yR6j0K8u6C7vL2bZ4xPq6c7s9A2m",
+      "role": "officer",
+      "departmentId": "DEP-ROADS",
+      "departmentName": "Public Works & Roads Infrastructure",
+      "phone": "+91-98765-43212",
+      "status": "active",
+      "createdAt": "2026-01-10T11:00:00.000Z",
+      "updatedAt": "2026-01-10T11:00:00.000Z"
+    },
+    {
+      "id": "USR-OFF-02",
+      "name": "Sunita Patel",
+      "email": "officer.patel@scip.gov",
+      "passwordHash": "$2a$10$w1qZ3PjG2h1bFfLdJtT7UOPV2yR6j0K8u6C7vL2bZ4xPq6c7s9A2m",
+      "role": "officer",
+      "departmentId": "DEP-WTR",
+      "departmentName": "Water & Sewerage Authority",
+      "phone": "+91-98765-43213",
+      "status": "active",
+      "createdAt": "2026-01-10T11:30:00.000Z",
+      "updatedAt": "2026-01-10T11:30:00.000Z"
+    },
+    {
+      "id": "USR-CIT-01",
+      "name": "Priya Sharma",
+      "email": "citizen.jane@scip.gov",
+      "passwordHash": "$2a$10$w1qZ3PjG2h1bFfLdJtT7UOPV2yR6j0K8u6C7vL2bZ4xPq6c7s9A2m",
+      "role": "citizen",
+      "phone": "+91-98765-43220",
+      "status": "active",
+      "createdAt": "2026-02-01T14:15:00.000Z",
+      "updatedAt": "2026-02-01T14:15:00.000Z"
+    },
+    {
+      "id": "USR-CIT-02",
+      "name": "Rahul Mehta",
+      "email": "citizen.rahul@scip.gov",
+      "passwordHash": "$2a$10$w1qZ3PjG2h1bFfLdJtT7UOPV2yR6j0K8u6C7vL2bZ4xPq6c7s9A2m",
+      "role": "citizen",
+      "phone": "+91-98765-43221",
+      "status": "active",
+      "createdAt": "2026-02-03T16:00:00.000Z",
+      "updatedAt": "2026-02-03T16:00:00.000Z"
+    },
+    {
+      "id": "USR-DEPT-01",
+      "name": "Er. Sunita Patel",
+      "email": "dept.patel@scip.gov",
+      "passwordHash": "$2a$10$w1qZ3PjG2h1bFfLdJtT7UOPV2yR6j0K8u6C7vL2bZ4xPq6c7s9A2m",
+      "role": "dept_officer",
+      "departmentId": "DEP-WTR",
+      "departmentName": "Water & Sewerage Authority",
+      "phone": "+91-98765-43213",
+      "status": "active",
+      "createdAt": "2026-01-10T11:30:00.000Z",
+      "updatedAt": "2026-01-10T11:30:00.000Z"
+    },
+    {
+      "id": "USR-ANL-01",
+      "name": "Dr. Kavita Rao",
+      "email": "analyst.rao@scip.gov",
+      "passwordHash": "$2a$10$w1qZ3PjG2h1bFfLdJtT7UOPV2yR6j0K8u6C7vL2bZ4xPq6c7s9A2m",
+      "role": "analyst",
+      "phone": "+91-98765-43230",
+      "status": "active",
+      "createdAt": "2026-01-12T10:00:00.000Z",
+      "updatedAt": "2026-01-12T10:00:00.000Z"
+    }
+  ],
+  "departments": [
+    {
+      "id": "DEP-WTR",
+      "code": "WSD",
+      "name": "Water & Sewerage Authority",
+      "description": "Responsible for municipal stormwater drainage, water supply grids, culverts, and sewer maintenance.",
+      "headName": "Er. Sunita Patel",
+      "email": "water.operations@scip.gov",
+      "phone": "+91-11-2345-6701",
+      "activeIncidentsCount": 3,
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "DEP-ROADS",
+      "code": "PWD",
+      "name": "Public Works & Roads Infrastructure",
+      "description": "Responsible for municipal highways, arterial avenues, resurfacing, bridges, and traffic signage.",
+      "headName": "Er. Vikram Sharma",
+      "email": "pwd.roads@scip.gov",
+      "phone": "+91-11-2345-6702",
+      "activeIncidentsCount": 4,
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "DEP-SANI",
+      "code": "MSW",
+      "name": "Municipal Sanitation & Solid Waste",
+      "description": "Manages municipal collection containers, neighborhood sweeping, waste disposal, and civic cleanliness.",
+      "headName": "Smt. Anita Roy",
+      "email": "sanitation@scip.gov",
+      "phone": "+91-11-2345-6703",
+      "activeIncidentsCount": 2,
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "DEP-ELEC",
+      "code": "PPL",
+      "name": "Power, Grid & Public Lighting",
+      "description": "Responsible for streetlight networks, power feeder lines, municipal transformers, and electrical safety.",
+      "headName": "Er. Devendra Singh",
+      "email": "power.lighting@scip.gov",
+      "phone": "+91-11-2345-6704",
+      "activeIncidentsCount": 2,
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "REP-2026-001",
+      "title": "Water accumulation near Sector 4 Market entrance",
+      "description": "Heavy water logging has accumulated right outside the main market entrance. Water level is around 8-10 inches and stagnant, making pedestrian access impossible.",
+      "category": "Water & Drainage",
+      "subcategory": "Water Logging",
+      "locationName": "Sector 4 Market Entrance",
+      "latitude": 28.6142,
+      "longitude": 77.2091,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "status": "under_review",
+      "urgency": "high",
+      "incidentId": "INC-2026-001",
+      "images": [
+        "https://images.unsplash.com/photo-1547683905-f686c993aae5?auto=format&fit=crop&w=400&q=80"
+      ],
+      "createdAt": "2026-10-03T07:15:00.000Z",
+      "updatedAt": "2026-10-03T07:20:00.000Z"
+    },
+    {
+      "id": "REP-2026-002",
+      "title": "Main stormwater drain blocked near Sector 4 Market",
+      "description": "The municipal storm sewer culvert opposite Gate 2 is completely clogged with discarded plastic packaging and silt. Water is backflowing onto the carriageway.",
+      "category": "Water & Drainage",
+      "subcategory": "Clogged Drain",
+      "locationName": "Sector 4 Market Gate 2",
+      "latitude": 28.6145,
+      "longitude": 77.2094,
+      "citizenId": "USR-CIT-02",
+      "citizenName": "Rahul Mehta",
+      "citizenEmail": "citizen.rahul@scip.gov",
+      "status": "under_review",
+      "urgency": "high",
+      "incidentId": "INC-2026-001",
+      "images": [],
+      "createdAt": "2026-10-03T07:45:00.000Z",
+      "updatedAt": "2026-10-03T07:50:00.000Z"
+    },
+    {
+      "id": "REP-2026-003",
+      "title": "Road flooded outside State Bank branch Sector 4",
+      "description": "Arterial road surface is submerged under knee-deep water. At least two compact hatchbacks have stalled in the middle of the flooded road trying to cross.",
+      "category": "Roads & Traffic",
+      "subcategory": "Road Flooding",
+      "locationName": "Sector 4 Market Road, Bank Complex",
+      "latitude": 28.614,
+      "longitude": 77.2088,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "status": "under_review",
+      "urgency": "critical",
+      "incidentId": "INC-2026-001",
+      "createdAt": "2026-10-03T08:10:00.000Z",
+      "updatedAt": "2026-10-03T08:15:00.000Z"
+    },
+    {
+      "id": "REP-2026-004",
+      "title": "Severe traffic disruption and gridlock on Market Road",
+      "description": "Vehicles cannot pass due to deep standing water and blocked drainage culvert. Traffic backup extends over 1.2 kilometers toward the main roundabout.",
+      "category": "Roads & Traffic",
+      "subcategory": "Traffic Congestion",
+      "locationName": "Sector 4 Market Roundabout Approach",
+      "latitude": 28.6138,
+      "longitude": 77.2096,
+      "citizenId": "USR-CIT-02",
+      "citizenName": "Rahul Mehta",
+      "citizenEmail": "citizen.rahul@scip.gov",
+      "status": "under_review",
+      "urgency": "high",
+      "incidentId": "INC-2026-001",
+      "createdAt": "2026-10-03T08:35:00.000Z",
+      "updatedAt": "2026-10-03T08:40:00.000Z"
+    },
+    {
+      "id": "REP-2026-005",
+      "title": "Heavy tree branch snapped onto high tension powerline",
+      "description": "A large banyan tree branch broke during early morning winds and is hanging directly across the 11kV electrical distribution wires on West Boulevard.",
+      "category": "Parks & Environment",
+      "subcategory": "Fallen Tree Branch",
+      "locationName": "West Boulevard, Near Pillar 42",
+      "latitude": 28.625,
+      "longitude": 77.218,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "status": "assigned",
+      "urgency": "critical",
+      "incidentId": "INC-2026-002",
+      "createdAt": "2026-10-02T18:20:00.000Z",
+      "updatedAt": "2026-10-02T19:00:00.000Z"
+    },
+    {
+      "id": "REP-2026-006",
+      "title": "Continuous electrical sparking from transformer pole",
+      "description": "The overhead transformer pole next to the fallen branch is sparking violently with loud buzzing sounds. Immediate electrocution risk to pedestrians.",
+      "category": "Power & Lighting",
+      "subcategory": "Transformer Sparking",
+      "locationName": "West Boulevard Transformer 14",
+      "latitude": 28.6253,
+      "longitude": 77.2184,
+      "citizenId": "USR-CIT-02",
+      "citizenName": "Rahul Mehta",
+      "citizenEmail": "citizen.rahul@scip.gov",
+      "status": "assigned",
+      "urgency": "critical",
+      "incidentId": "INC-2026-002",
+      "createdAt": "2026-10-02T18:40:00.000Z",
+      "updatedAt": "2026-10-02T19:00:00.000Z"
+    },
+    {
+      "id": "REP-2026-007",
+      "title": "Entire stretch of streetlights dark on West Boulevard",
+      "description": "Following the transformer sparks, all 16 sodium streetlamps along the 500m avenue have gone completely dark, creating dangerous night driving conditions.",
+      "category": "Power & Lighting",
+      "subcategory": "Streetlight Outage",
+      "locationName": "West Boulevard Avenue",
+      "latitude": 28.6247,
+      "longitude": 77.2178,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "status": "assigned",
+      "urgency": "medium",
+      "incidentId": "INC-2026-002",
+      "createdAt": "2026-10-02T19:15:00.000Z",
+      "updatedAt": "2026-10-02T19:20:00.000Z"
+    },
+    {
+      "id": "REP-2026-008",
+      "title": "Dangerous deep crater pothole on Expressway Ramp",
+      "description": "Pothole measuring approximately 4 feet wide and 6 inches deep on the expressway descent. Vehicles are swerving abruptly to avoid damage.",
+      "category": "Roads & Traffic",
+      "subcategory": "Pothole Crater",
+      "locationName": "North Industrial Expressway Ramp B",
+      "latitude": 28.638,
+      "longitude": 77.23,
+      "citizenId": "USR-CIT-02",
+      "citizenName": "Rahul Mehta",
+      "citizenEmail": "citizen.rahul@scip.gov",
+      "status": "resolved",
+      "urgency": "high",
+      "incidentId": "INC-2026-003",
+      "createdAt": "2026-09-28T09:00:00.000Z",
+      "updatedAt": "2026-09-30T17:00:00.000Z"
+    },
+    {
+      "id": "REP-2026-009",
+      "title": "Motorcycle slipped on broken road surface near Industrial Gate",
+      "description": "Loose gravel and broken asphalt from the large pothole caused a two-wheeler to skid. The rider suffered minor abrasions. Urgent patch work needed.",
+      "category": "Roads & Traffic",
+      "subcategory": "Road Hazard",
+      "locationName": "North Industrial Expressway, Gate 1",
+      "latitude": 28.6384,
+      "longitude": 77.2305,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "status": "resolved",
+      "urgency": "high",
+      "incidentId": "INC-2026-003",
+      "createdAt": "2026-09-28T10:30:00.000Z",
+      "updatedAt": "2026-09-30T17:00:00.000Z"
+    },
+    {
+      "id": "REP-2026-010",
+      "title": "Commercial garbage dumpster overflowing into pedestrian lane",
+      "description": "The municipal bin has not been cleared for 4 days. Waste is spilling over 20 meters down the lane, producing an unbearable foul smell and attracting stray animals.",
+      "category": "Public Sanitation",
+      "subcategory": "Overflowing Bin",
+      "locationName": "Central Plaza Food Street",
+      "latitude": 28.61,
+      "longitude": 77.205,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "status": "analyzed",
+      "urgency": "medium",
+      "createdAt": "2026-10-02T11:00:00.000Z",
+      "updatedAt": "2026-10-02T11:05:00.000Z"
+    },
+    {
+      "id": "REP-2026-011",
+      "title": "Uncollected plastic debris obstructing stormwater inlet near School",
+      "description": "Bags of household refuse dumped directly on top of the rainwater intake grate outside City Public School. Rain predicted tomorrow.",
+      "category": "Public Sanitation",
+      "subcategory": "Illegal Waste Dumping",
+      "locationName": "School Road, Near City Public School",
+      "latitude": 28.6105,
+      "longitude": 77.2054,
+      "citizenId": "USR-CIT-02",
+      "citizenName": "Rahul Mehta",
+      "citizenEmail": "citizen.rahul@scip.gov",
+      "status": "analyzed",
+      "urgency": "medium",
+      "createdAt": "2026-10-02T13:20:00.000Z",
+      "updatedAt": "2026-10-02T13:25:00.000Z"
+    },
+    {
+      "id": "REP-2026-012",
+      "title": "Damaged pedestrian bridge railing over drainage canal",
+      "description": "A 4-meter section of the iron safety railing has rusted through and collapsed into the canal. Severe fall hazard for school children and night pedestrians.",
+      "category": "Structural Safety",
+      "subcategory": "Broken Railing",
+      "locationName": "Riverfront Canal Footbridge",
+      "latitude": 28.618,
+      "longitude": 77.212,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "status": "under_review",
+      "urgency": "high",
+      "createdAt": "2026-10-01T15:45:00.000Z",
+      "updatedAt": "2026-10-01T16:00:00.000Z"
+    },
+    {
+      "id": "REP-2026-013",
+      "title": "Industrial diesel generator exceeding permitted decibels at night",
+      "description": "Heavy construction generator operating continuously past 11:30 PM exceeding residential noise standards. Vibrations felt in adjacent apartments.",
+      "category": "Noise & Disturbance",
+      "subcategory": "Night Construction Noise",
+      "locationName": "Sector 12 Residential Edge",
+      "latitude": 28.635,
+      "longitude": 77.228,
+      "citizenId": "USR-CIT-02",
+      "citizenName": "Rahul Mehta",
+      "citizenEmail": "citizen.rahul@scip.gov",
+      "status": "analyzed",
+      "urgency": "low",
+      "createdAt": "2026-10-02T23:30:00.000Z",
+      "updatedAt": "2026-10-02T23:35:00.000Z"
+    },
+    {
+      "id": "REP-2026-014",
+      "title": "Stagnant water and heavy mosquito breeding in open basement pit",
+      "description": "Abandoned commercial construction basement has 3 feet of green stagnant water. Nearby residents report high incidence of viral fever.",
+      "category": "Public Health",
+      "subcategory": "Mosquito Vector Breeding",
+      "locationName": "Sub-City Sector 9 Commercial Plot",
+      "latitude": 28.612,
+      "longitude": 77.207,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "status": "under_review",
+      "urgency": "high",
+      "createdAt": "2026-10-01T10:00:00.000Z",
+      "updatedAt": "2026-10-01T10:15:00.000Z"
+    },
+    {
+      "title": "Automated Test Overflowing Manhole",
+      "description": "Sewage overflowing from manhole cover onto sidewalk.",
+      "category": "Water & Drainage",
+      "locationName": "Test Boulevard Junction",
+      "latitude": 28.615,
+      "longitude": 77.21,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "urgency": "high",
+      "id": "REP-2026-015",
+      "status": "analyzed",
+      "createdAt": "2026-11-09T12:52:44.153Z",
+      "updatedAt": "2026-11-09T12:52:44.153Z"
+    },
+    {
+      "title": "Automated Test Overflowing Manhole",
+      "description": "Sewage overflowing from manhole cover onto sidewalk.",
+      "category": "Water & Drainage",
+      "locationName": "Test Boulevard Junction",
+      "latitude": 28.615,
+      "longitude": 77.21,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "urgency": "high",
+      "id": "REP-2026-016",
+      "status": "analyzed",
+      "createdAt": "2026-11-09T13:09:12.256Z",
+      "updatedAt": "2026-11-09T13:09:12.256Z"
+    },
+    {
+      "title": "Automated Test Overflowing Manhole",
+      "description": "Sewage overflowing from manhole cover onto sidewalk.",
+      "category": "Water & Drainage",
+      "locationName": "Test Boulevard Junction",
+      "latitude": 28.615,
+      "longitude": 77.21,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "urgency": "high",
+      "id": "REP-2026-017",
+      "status": "analyzed",
+      "createdAt": "2026-11-09T13:09:15.957Z",
+      "updatedAt": "2026-11-09T13:09:15.957Z"
+    },
+    {
+      "title": "Automated Test Overflowing Manhole",
+      "description": "Sewage overflowing from manhole cover onto sidewalk.",
+      "category": "Water & Drainage",
+      "locationName": "Test Boulevard Junction",
+      "latitude": 28.615,
+      "longitude": 77.21,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "urgency": "high",
+      "id": "REP-2026-018",
+      "status": "analyzed",
+      "createdAt": "2026-11-09T13:09:34.958Z",
+      "updatedAt": "2026-11-09T13:09:34.958Z"
+    },
+    {
+      "title": "Automated Test Overflowing Manhole",
+      "description": "Sewage overflowing from manhole cover onto sidewalk.",
+      "category": "Water & Drainage",
+      "locationName": "Test Boulevard Junction",
+      "latitude": 28.615,
+      "longitude": 77.21,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "urgency": "high",
+      "id": "REP-2026-019",
+      "status": "analyzed",
+      "createdAt": "2026-11-09T13:09:38.714Z",
+      "updatedAt": "2026-11-09T13:09:38.714Z"
+    },
+    {
+      "title": "Automated Test Overflowing Manhole",
+      "description": "Sewage overflowing from manhole cover onto sidewalk.",
+      "category": "Water & Drainage",
+      "locationName": "Test Boulevard Junction",
+      "latitude": 28.615,
+      "longitude": 77.21,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "urgency": "high",
+      "id": "REP-2026-020",
+      "status": "analyzed",
+      "createdAt": "2026-11-09T13:09:45.161Z",
+      "updatedAt": "2026-11-09T13:09:45.161Z"
+    },
+    {
+      "title": "Automated Test Overflowing Manhole",
+      "description": "Sewage overflowing from manhole cover onto sidewalk.",
+      "category": "Water & Drainage",
+      "locationName": "Test Boulevard Junction",
+      "latitude": 28.615,
+      "longitude": 77.21,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "urgency": "high",
+      "id": "REP-2026-021",
+      "status": "analyzed",
+      "createdAt": "2026-11-09T13:37:43.760Z",
+      "updatedAt": "2026-11-09T13:37:43.760Z"
+    },
+    {
+      "title": "Automated Test Overflowing Manhole",
+      "description": "Sewage overflowing from manhole cover onto sidewalk.",
+      "category": "Water & Drainage",
+      "locationName": "Test Boulevard Junction",
+      "latitude": 28.615,
+      "longitude": 77.21,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "urgency": "high",
+      "id": "REP-2026-022",
+      "status": "analyzed",
+      "createdAt": "2026-11-09T14:05:39.425Z",
+      "updatedAt": "2026-11-09T14:05:39.425Z"
+    },
+    {
+      "title": "Automated Test Overflowing Manhole",
+      "description": "Sewage overflowing from manhole cover onto sidewalk.",
+      "category": "Water & Drainage",
+      "locationName": "Test Boulevard Junction",
+      "latitude": 28.615,
+      "longitude": 77.21,
+      "citizenId": "USR-CIT-01",
+      "citizenName": "Priya Sharma",
+      "citizenEmail": "citizen.jane@scip.gov",
+      "urgency": "high",
+      "id": "REP-2026-023",
+      "status": "analyzed",
+      "createdAt": "2026-11-09T14:07:26.896Z",
+      "updatedAt": "2026-11-09T14:07:26.896Z"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "INC-2026-001",
+      "title": "Potential Incident: Concentrated Drainage Failure & Road Flooding at Sector 4 Market",
+      "category": "Water & Drainage",
+      "description": "Algorithmic correlation identified 4 distinct community reports submitted within a 150m perimeter within 90 minutes. Stagnant stormwater and blocked storm culverts have induced arterial road submergence and gridlock on Market Road.",
+      "locationName": "Sector 4 Market Commercial Corridor",
+      "latitude": 28.6141,
+      "longitude": 77.2092,
+      "radiusMeters": 180,
+      "reportIds": [
+        "REP-2026-001",
+        "REP-2026-002",
+        "REP-2026-003",
+        "REP-2026-004"
+      ],
+      "severity": "critical",
+      "priority": "P1_CRITICAL",
+      "confidence": 0.92,
+      "status": "confirmed",
+      "isAIGenerated": true,
+      "humanReviewed": true,
+      "evidence": [
+        "4 correlated observations reported within a 150m perimeter in under 1.5 hours",
+        "Cascade relationship: Clogged storm culvert (REP-002) directly causing road flooding (REP-003) and traffic gridlock (REP-004)",
+        "High physical hazard: Stalled vehicles reported submerged; pedestrian access blocked",
+        "Historical recurrence: Sector 4 identified as repeat low-lying drainage choke point"
+      ],
+      "createdAt": "2026-10-03T08:45:00.000Z",
+      "updatedAt": "2026-11-09T14:07:26.919Z",
+      "reviewedBy": "Dr. Rajesh Gupta (authority)",
+      "reviewedAt": "2026-11-09T14:07:26.919Z",
+      "reviewNotes": "Confirmed road flooding. Urgent pump trucks dispatched.",
+      "assignedDepartmentId": "DEP-WTR",
+      "assignedDepartmentName": "Water & Sewerage Authority",
+      "assignedOfficerId": "USR-OFF-02",
+      "assignedOfficerName": "Sunita Patel"
+    },
+    {
+      "id": "INC-2026-002",
+      "title": "West Boulevard Fallen Tree Branch & Electrical Sparking Hazard",
+      "category": "Power & Lighting",
+      "description": "Severe storm damage caused heavy branch collapse across 11kV distribution line, triggering transformer sparking and consecutive blackout of 16 streetlights.",
+      "locationName": "West Boulevard, Sector 7 Junction",
+      "latitude": 28.6251,
+      "longitude": 77.2181,
+      "radiusMeters": 120,
+      "reportIds": [
+        "REP-2026-005",
+        "REP-2026-006",
+        "REP-2026-007"
+      ],
+      "severity": "critical",
+      "priority": "P1_CRITICAL",
+      "confidence": 0.95,
+      "status": "in_progress",
+      "isAIGenerated": true,
+      "humanReviewed": true,
+      "reviewedBy": "Dr. Rajesh Gupta (Director)",
+      "reviewedAt": "2026-10-02T19:30:00.000Z",
+      "reviewNotes": "Confirmed by Municipal Control Room. Emergency electrical team dispatched to de-energize feeder line and clear branch.",
+      "assignedDepartmentId": "DEP-ELEC",
+      "assignedDepartmentName": "Power, Grid & Public Lighting",
+      "assignedOfficerId": "USR-OFF-01",
+      "assignedOfficerName": "Er. Vikram Sharma",
+      "evidence": [
+        "3 community reports documenting electrical hazard, active sparks, and blackout",
+        "Emergency verification: Live 11kV wire contact confirmed"
+      ],
+      "createdAt": "2026-10-02T19:00:00.000Z",
+      "updatedAt": "2026-10-02T19:30:00.000Z"
+    },
+    {
+      "id": "INC-2026-003",
+      "title": "North Industrial Expressway Ramp Pothole Hazard & Surface Restoration",
+      "category": "Roads & Traffic",
+      "description": "Deep road depression and loose asphalt on industrial transit arterial causing vehicle damage and two-wheeler skidding risk.",
+      "locationName": "North Industrial Expressway Ramp B",
+      "latitude": 28.6382,
+      "longitude": 77.2302,
+      "radiusMeters": 90,
+      "reportIds": [
+        "REP-2026-008",
+        "REP-2026-009"
+      ],
+      "severity": "high",
+      "priority": "P2_HIGH",
+      "confidence": 0.89,
+      "status": "resolved",
+      "isAIGenerated": true,
+      "humanReviewed": true,
+      "reviewedBy": "Er. Vikram Sharma",
+      "reviewedAt": "2026-09-28T11:00:00.000Z",
+      "assignedDepartmentId": "DEP-ROADS",
+      "assignedDepartmentName": "Public Works & Roads Infrastructure",
+      "assignedOfficerId": "USR-OFF-01",
+      "assignedOfficerName": "Er. Vikram Sharma",
+      "resolutionNotes": "Rapid asphalt cold mix compaction completed. 4m x 2m section resurfaced and leveled. Traffic signage restored.",
+      "resolvedAt": "2026-09-30T17:00:00.000Z",
+      "evidence": [
+        "2 reports of vehicle damage and skid on high-speed expressway ramp",
+        "Work order WO-2026-449 executed with cold mix asphalt"
+      ],
+      "createdAt": "2026-09-28T10:45:00.000Z",
+      "updatedAt": "2026-09-30T17:00:00.000Z"
+    }
+  ],
+  "analyses": [
+    {
+      "reportId": "REP-2026-001",
+      "categoryPredicted": "Water & Drainage",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "entr",
+        "market entr",
+        "market",
+        "water",
+        "imposs sector",
+        "sector market"
+      ],
+      "entities": {
+        "locations": [
+          "Sector 4 Market",
+          "Sector 4"
+        ],
+        "infrastructure": [],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.06,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-002",
+          "reportTitle": "Main stormwater drain blocked near Sector 4 Market",
+          "category": "Water & Drainage",
+          "similarityScore": 0.138,
+          "distanceMeters": 44,
+          "timeDeltaHours": 0.5,
+          "matchingTerms": [
+            "market",
+            "sector market",
+            "sector",
+            "water"
+          ],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-004",
+          "reportTitle": "Severe traffic disruption and gridlock on Market Road",
+          "category": "Roads & Traffic",
+          "similarityScore": 0.093,
+          "distanceMeters": 66,
+          "timeDeltaHours": 1.3,
+          "matchingTerms": [
+            "market",
+            "water",
+            "sector market",
+            "main"
+          ],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-003",
+          "reportTitle": "Road flooded outside State Bank branch Sector 4",
+          "category": "Roads & Traffic",
+          "similarityScore": 0.083,
+          "distanceMeters": 37,
+          "timeDeltaHours": 0.9,
+          "matchingTerms": [
+            "market",
+            "sector",
+            "water",
+            "sector market"
+          ],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-001",
+      "severityIndicator": "high",
+      "riskScore": 53,
+      "evidence": [
+        "Related reports identified in vicinity (44m), but distinct observations",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 4 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T12:52:37.690Z"
+    },
+    {
+      "reportId": "REP-2026-002",
+      "categoryPredicted": "Water & Drainage",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "gate",
+        "carriageway sector",
+        "market",
+        "sector market",
+        "drain",
+        "storm"
+      ],
+      "entities": {
+        "locations": [
+          "Sector 4 Market",
+          "Sector 4"
+        ],
+        "infrastructure": [
+          "drain",
+          "sewer",
+          "culvert"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.06,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-001",
+          "reportTitle": "Water accumulation near Sector 4 Market entrance",
+          "category": "Water & Drainage",
+          "similarityScore": 0.138,
+          "distanceMeters": 44,
+          "timeDeltaHours": 0.5,
+          "matchingTerms": [
+            "market",
+            "sector market",
+            "sector",
+            "water"
+          ],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-004",
+          "reportTitle": "Severe traffic disruption and gridlock on Market Road",
+          "category": "Roads & Traffic",
+          "similarityScore": 0.115,
+          "distanceMeters": 80,
+          "timeDeltaHours": 0.8,
+          "matchingTerms": [
+            "market",
+            "sector market",
+            "block",
+            "culvert"
+          ],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-003",
+          "reportTitle": "Road flooded outside State Bank branch Sector 4",
+          "category": "Roads & Traffic",
+          "similarityScore": 0.062,
+          "distanceMeters": 81,
+          "timeDeltaHours": 0.4,
+          "matchingTerms": [
+            "sector",
+            "market",
+            "sector market",
+            "water"
+          ],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-001",
+      "severityIndicator": "high",
+      "riskScore": 53,
+      "evidence": [
+        "Related reports identified in vicinity (44m), but distinct observations",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 4 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T12:52:37.696Z"
+    },
+    {
+      "reportId": "REP-2026-003",
+      "categoryPredicted": "Water & Drainage",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "flood",
+        "bank",
+        "road",
+        "cross sector",
+        "state",
+        "arterial"
+      ],
+      "entities": {
+        "locations": [
+          "Sector 4 Market",
+          "Sector 4"
+        ],
+        "infrastructure": [
+          "road"
+        ],
+        "hazards": [
+          "deep water"
+        ],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.05,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-001",
+          "reportTitle": "Water accumulation near Sector 4 Market entrance",
+          "category": "Water & Drainage",
+          "similarityScore": 0.083,
+          "distanceMeters": 37,
+          "timeDeltaHours": 0.9,
+          "matchingTerms": [
+            "market",
+            "sector",
+            "water",
+            "sector market"
+          ],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-004",
+          "reportTitle": "Severe traffic disruption and gridlock on Market Road",
+          "category": "Roads & Traffic",
+          "similarityScore": 0.082,
+          "distanceMeters": 81,
+          "timeDeltaHours": 0.4,
+          "matchingTerms": [
+            "road",
+            "market",
+            "market road",
+            "sector"
+          ],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-002",
+          "reportTitle": "Main stormwater drain blocked near Sector 4 Market",
+          "category": "Water & Drainage",
+          "similarityScore": 0.062,
+          "distanceMeters": 81,
+          "timeDeltaHours": 0.4,
+          "matchingTerms": [
+            "sector",
+            "market",
+            "sector market",
+            "water"
+          ],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-001",
+      "severityIndicator": "high",
+      "riskScore": 59,
+      "evidence": [
+        "Related reports identified in vicinity (37m), but distinct observations",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 4 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T12:52:37.701Z"
+    },
+    {
+      "reportId": "REP-2026-004",
+      "categoryPredicted": "Water & Drainage",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "roundabout",
+        "roundabout sector",
+        "traffic",
+        "market",
+        "disrupt",
+        "gridlock"
+      ],
+      "entities": {
+        "locations": [
+          "Sector 4 Market",
+          "Sector 4"
+        ],
+        "infrastructure": [
+          "drain",
+          "drainage",
+          "culvert",
+          "road"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.05,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-002",
+          "reportTitle": "Main stormwater drain blocked near Sector 4 Market",
+          "category": "Water & Drainage",
+          "similarityScore": 0.115,
+          "distanceMeters": 80,
+          "timeDeltaHours": 0.8,
+          "matchingTerms": [
+            "market",
+            "sector market",
+            "block",
+            "culvert"
+          ],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-001",
+          "reportTitle": "Water accumulation near Sector 4 Market entrance",
+          "category": "Water & Drainage",
+          "similarityScore": 0.093,
+          "distanceMeters": 66,
+          "timeDeltaHours": 1.3,
+          "matchingTerms": [
+            "market",
+            "water",
+            "sector market",
+            "main"
+          ],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-003",
+          "reportTitle": "Road flooded outside State Bank branch Sector 4",
+          "category": "Roads & Traffic",
+          "similarityScore": 0.082,
+          "distanceMeters": 81,
+          "timeDeltaHours": 0.4,
+          "matchingTerms": [
+            "road",
+            "market",
+            "market road",
+            "sector"
+          ],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-001",
+      "severityIndicator": "high",
+      "riskScore": 53,
+      "evidence": [
+        "Related reports identified in vicinity (80m), but distinct observations",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 4 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T12:52:37.712Z"
+    },
+    {
+      "reportId": "REP-2026-005",
+      "categoryPredicted": "Parks & Environment",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "tree",
+        "tree branch",
+        "branch",
+        "west",
+        "boulevard",
+        "west boulevard"
+      ],
+      "entities": {
+        "locations": [
+          "West Boulevard"
+        ],
+        "infrastructure": [
+          "wire"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "urgent",
+      "duplicateProbability": 0.05,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-007",
+          "reportTitle": "Entire stretch of streetlights dark on West Boulevard",
+          "category": "Power & Lighting",
+          "similarityScore": 0.094,
+          "distanceMeters": 39,
+          "timeDeltaHours": 0.9,
+          "matchingTerms": [
+            "west",
+            "boulevard",
+            "west boulevard"
+          ],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-006",
+          "reportTitle": "Continuous electrical sparking from transformer pole",
+          "category": "Power & Lighting",
+          "similarityScore": 0.091,
+          "distanceMeters": 51,
+          "timeDeltaHours": 0.3,
+          "matchingTerms": [
+            "branch",
+            "west",
+            "boulevard",
+            "west boulevard"
+          ],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": false,
+      "severityIndicator": "critical",
+      "riskScore": 52,
+      "evidence": [
+        "Related reports identified in vicinity (39m), but distinct observations",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Stand-alone observation (no active incident cluster threshold reached yet)"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T12:52:37.719Z"
+    },
+    {
+      "reportId": "REP-2026-006",
+      "categoryPredicted": "Power & Lighting",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "transformer",
+        "pole",
+        "transformer pole",
+        "spark",
+        "pedestrian west",
+        "continuous"
+      ],
+      "entities": {
+        "locations": [
+          "West Boulevard"
+        ],
+        "infrastructure": [
+          "transformer"
+        ],
+        "hazards": [],
+        "temporal": [
+          "continuous"
+        ]
+      },
+      "sentiment": "urgent",
+      "duplicateProbability": 0.05,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-007",
+          "reportTitle": "Entire stretch of streetlights dark on West Boulevard",
+          "category": "Power & Lighting",
+          "similarityScore": 0.119,
+          "distanceMeters": 89,
+          "timeDeltaHours": 0.6,
+          "matchingTerms": [
+            "transformer",
+            "spark",
+            "west",
+            "boulevard"
+          ],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-005",
+          "reportTitle": "Heavy tree branch snapped onto high tension powerline",
+          "category": "Parks & Environment",
+          "similarityScore": 0.091,
+          "distanceMeters": 51,
+          "timeDeltaHours": 0.3,
+          "matchingTerms": [
+            "branch",
+            "west",
+            "boulevard",
+            "west boulevard"
+          ],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-002",
+      "severityIndicator": "critical",
+      "riskScore": 54,
+      "evidence": [
+        "Related reports identified in vicinity (89m), but distinct observations",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 2 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T12:52:37.724Z"
+    },
+    {
+      "reportId": "REP-2026-007",
+      "categoryPredicted": "Power & Lighting",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "dark",
+        "avenue",
+        "west",
+        "boulevard",
+        "west boulevard",
+        "condit west"
+      ],
+      "entities": {
+        "locations": [
+          "West Boulevard"
+        ],
+        "infrastructure": [
+          "street",
+          "transformer",
+          "streetlight"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.05,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-006",
+          "reportTitle": "Continuous electrical sparking from transformer pole",
+          "category": "Power & Lighting",
+          "similarityScore": 0.119,
+          "distanceMeters": 89,
+          "timeDeltaHours": 0.6,
+          "matchingTerms": [
+            "transformer",
+            "spark",
+            "west",
+            "boulevard"
+          ],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-005",
+          "reportTitle": "Heavy tree branch snapped onto high tension powerline",
+          "category": "Parks & Environment",
+          "similarityScore": 0.094,
+          "distanceMeters": 39,
+          "timeDeltaHours": 0.9,
+          "matchingTerms": [
+            "west",
+            "boulevard",
+            "west boulevard"
+          ],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-002",
+      "severityIndicator": "medium",
+      "riskScore": 40,
+      "evidence": [
+        "Related reports identified in vicinity (89m), but distinct observations",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 2 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T12:52:37.727Z"
+    },
+    {
+      "reportId": "REP-2026-008",
+      "categoryPredicted": "Roads & Traffic",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "expressway",
+        "ramp",
+        "expressway ramp",
+        "deep",
+        "pothole",
+        "damage north"
+      ],
+      "entities": {
+        "locations": [],
+        "infrastructure": [],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.05,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-009",
+          "reportTitle": "Motorcycle slipped on broken road surface near Industrial Gate",
+          "category": "Roads & Traffic",
+          "similarityScore": 0.121,
+          "distanceMeters": 66,
+          "timeDeltaHours": 1.5,
+          "matchingTerms": [
+            "expressway",
+            "pothole",
+            "industrial",
+            "north"
+          ],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": false,
+      "severityIndicator": "high",
+      "riskScore": 37,
+      "evidence": [
+        "Related reports identified in vicinity (66m), but distinct observations",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Stand-alone observation (no active incident cluster threshold reached yet)"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T12:52:37.731Z"
+    },
+    {
+      "reportId": "REP-2026-009",
+      "categoryPredicted": "Roads & Traffic",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "broken",
+        "gate",
+        "industrial",
+        "need north",
+        "motorcycle",
+        "slipp"
+      ],
+      "entities": {
+        "locations": [],
+        "infrastructure": [
+          "road"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.05,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-008",
+          "reportTitle": "Dangerous deep crater pothole on Expressway Ramp",
+          "category": "Roads & Traffic",
+          "similarityScore": 0.121,
+          "distanceMeters": 66,
+          "timeDeltaHours": 1.5,
+          "matchingTerms": [
+            "expressway",
+            "pothole",
+            "industrial",
+            "north"
+          ],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": false,
+      "severityIndicator": "high",
+      "riskScore": 37,
+      "evidence": [
+        "Related reports identified in vicinity (66m), but distinct observations",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Stand-alone observation (no active incident cluster threshold reached yet)"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T12:52:37.734Z"
+    },
+    {
+      "reportId": "REP-2026-010",
+      "categoryPredicted": "Public Sanitation",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "lane",
+        "animal central",
+        "garbage",
+        "dumpster",
+        "overflow",
+        "bin"
+      ],
+      "entities": {
+        "locations": [
+          "Central Plaza"
+        ],
+        "infrastructure": [
+          "street"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.05,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-011",
+          "reportTitle": "Uncollected plastic debris obstructing stormwater inlet near School",
+          "category": "Public Sanitation",
+          "similarityScore": 0,
+          "distanceMeters": 68,
+          "timeDeltaHours": 2.3,
+          "matchingTerms": [],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-003",
+      "severityIndicator": "medium",
+      "riskScore": 37,
+      "evidence": [
+        "Related reports identified in vicinity (68m), but distinct observations",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 2 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T12:52:37.738Z"
+    },
+    {
+      "reportId": "REP-2026-011",
+      "categoryPredicted": "Public Sanitation",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "school",
+        "city",
+        "city public",
+        "public school",
+        "public",
+        "tomorrow school"
+      ],
+      "entities": {
+        "locations": [
+          "School Road"
+        ],
+        "infrastructure": [
+          "road"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.05,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-010",
+          "reportTitle": "Commercial garbage dumpster overflowing into pedestrian lane",
+          "category": "Public Sanitation",
+          "similarityScore": 0,
+          "distanceMeters": 68,
+          "timeDeltaHours": 2.3,
+          "matchingTerms": [],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-003",
+      "severityIndicator": "medium",
+      "riskScore": 41,
+      "evidence": [
+        "Related reports identified in vicinity (68m), but distinct observations",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 2 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T12:52:37.743Z"
+    },
+    {
+      "reportId": "REP-2026-012",
+      "categoryPredicted": "Structural Safety",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "canal",
+        "rail",
+        "pedestrian riverfront",
+        "pedestrian",
+        "damag",
+        "bridge"
+      ],
+      "entities": {
+        "locations": [
+          "Riverfront"
+        ],
+        "infrastructure": [
+          "drain",
+          "drainage",
+          "bridge",
+          "railing"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "urgent",
+      "duplicateProbability": 0,
+      "topSimilarReports": [],
+      "possibleIncident": false,
+      "severityIndicator": "critical",
+      "riskScore": 40,
+      "evidence": [
+        "No immediate duplicate reports detected within standard spatial/temporal window.",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Stand-alone observation (no active incident cluster threshold reached yet)"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T12:52:37.745Z"
+    },
+    {
+      "reportId": "REP-2026-013",
+      "categoryPredicted": "Noise & Disturbance",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "generator",
+        "exceed",
+        "residential",
+        "apart sector",
+        "diesel",
+        "permitt"
+      ],
+      "entities": {
+        "locations": [
+          "Sector 12"
+        ],
+        "infrastructure": [],
+        "hazards": [],
+        "temporal": [
+          "continuous"
+        ]
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0,
+      "topSimilarReports": [],
+      "possibleIncident": false,
+      "severityIndicator": "low",
+      "riskScore": 21,
+      "evidence": [
+        "No immediate duplicate reports detected within standard spatial/temporal window.",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Stand-alone observation (no active incident cluster threshold reached yet)"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T12:52:37.748Z"
+    },
+    {
+      "reportId": "REP-2026-014",
+      "categoryPredicted": "Public Health",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "base",
+        "stagnant water",
+        "stagnant",
+        "commercial",
+        "fever sub-city",
+        "water"
+      ],
+      "entities": {
+        "locations": [
+          "Sub-City Sector 9"
+        ],
+        "infrastructure": [],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0,
+      "topSimilarReports": [],
+      "possibleIncident": false,
+      "severityIndicator": "high",
+      "riskScore": 37,
+      "evidence": [
+        "No immediate duplicate reports detected within standard spatial/temporal window.",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Stand-alone observation (no active incident cluster threshold reached yet)"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T12:52:37.750Z"
+    },
+    {
+      "reportId": "REP-2026-015",
+      "categoryPredicted": "Water & Drainage",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "test",
+        "manhole",
+        "overflow manhole",
+        "overflow",
+        "sidewalk test",
+        "automat"
+      ],
+      "entities": {
+        "locations": [],
+        "infrastructure": [
+          "manhole",
+          "sidewalk"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.05,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-002",
+          "reportTitle": "Main stormwater drain blocked near Sector 4 Market",
+          "category": "Water & Drainage",
+          "similarityScore": 0.017,
+          "distanceMeters": 81,
+          "timeDeltaHours": 893.1,
+          "matchingTerms": [
+            "onto"
+          ],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-001",
+          "reportTitle": "Water accumulation near Sector 4 Market entrance",
+          "category": "Water & Drainage",
+          "similarityScore": 0,
+          "distanceMeters": 125,
+          "timeDeltaHours": 893.6,
+          "matchingTerms": [],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-003",
+          "reportTitle": "Road flooded outside State Bank branch Sector 4",
+          "category": "Roads & Traffic",
+          "similarityScore": 0,
+          "distanceMeters": 162,
+          "timeDeltaHours": 892.7,
+          "matchingTerms": [],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-004",
+          "reportTitle": "Severe traffic disruption and gridlock on Market Road",
+          "category": "Roads & Traffic",
+          "similarityScore": 0,
+          "distanceMeters": 139,
+          "timeDeltaHours": 892.3,
+          "matchingTerms": [],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": false,
+      "severityIndicator": "high",
+      "riskScore": 46,
+      "evidence": [
+        "Related reports identified in vicinity (81m), but distinct observations",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Stand-alone observation (no active incident cluster threshold reached yet)"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T12:52:44.156Z"
+    },
+    {
+      "reportId": "REP-2026-016",
+      "categoryPredicted": "Water & Drainage",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "test",
+        "manhole",
+        "overflow manhole",
+        "overflow",
+        "sidewalk test",
+        "automat"
+      ],
+      "entities": {
+        "locations": [],
+        "infrastructure": [
+          "manhole",
+          "sidewalk"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.95,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-015",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0.3,
+          "matchingTerms": [
+            "test",
+            "manhole",
+            "overflow manhole",
+            "overflow"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-002",
+          "reportTitle": "Main stormwater drain blocked near Sector 4 Market",
+          "category": "Water & Drainage",
+          "similarityScore": 0.016,
+          "distanceMeters": 81,
+          "timeDeltaHours": 893.4,
+          "matchingTerms": [
+            "onto"
+          ],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-001",
+          "reportTitle": "Water accumulation near Sector 4 Market entrance",
+          "category": "Water & Drainage",
+          "similarityScore": 0,
+          "distanceMeters": 125,
+          "timeDeltaHours": 893.9,
+          "matchingTerms": [],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-003",
+          "reportTitle": "Road flooded outside State Bank branch Sector 4",
+          "category": "Roads & Traffic",
+          "similarityScore": 0,
+          "distanceMeters": 162,
+          "timeDeltaHours": 893,
+          "matchingTerms": [],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-004",
+          "reportTitle": "Severe traffic disruption and gridlock on Market Road",
+          "category": "Roads & Traffic",
+          "similarityScore": 0,
+          "distanceMeters": 139,
+          "timeDeltaHours": 892.6,
+          "matchingTerms": [],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-004",
+      "severityIndicator": "high",
+      "riskScore": 46,
+      "evidence": [
+        "High spatial proximity: 0m from Report REP-2026-015",
+        "Temporal window: within 0.3 hours of prior submission",
+        "Key shared terms: test, manhole, overflow manhole, overflow",
+        "AI Interpretation: Potential duplicate citizen report regarding the same underlying ground event",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 2 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T13:09:12.264Z"
+    },
+    {
+      "reportId": "REP-2026-017",
+      "categoryPredicted": "Water & Drainage",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "test",
+        "manhole",
+        "overflow manhole",
+        "sidewalk test",
+        "overflow",
+        "automat"
+      ],
+      "entities": {
+        "locations": [],
+        "infrastructure": [
+          "manhole",
+          "sidewalk"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.95,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-015",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0.3,
+          "matchingTerms": [
+            "test",
+            "manhole",
+            "overflow manhole",
+            "sidewalk test"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-016",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0,
+          "matchingTerms": [
+            "test",
+            "manhole",
+            "overflow manhole",
+            "sidewalk test"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-002",
+          "reportTitle": "Main stormwater drain blocked near Sector 4 Market",
+          "category": "Water & Drainage",
+          "similarityScore": 0.015,
+          "distanceMeters": 81,
+          "timeDeltaHours": 893.4,
+          "matchingTerms": [
+            "onto"
+          ],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-001",
+          "reportTitle": "Water accumulation near Sector 4 Market entrance",
+          "category": "Water & Drainage",
+          "similarityScore": 0,
+          "distanceMeters": 125,
+          "timeDeltaHours": 893.9,
+          "matchingTerms": [],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-003",
+          "reportTitle": "Road flooded outside State Bank branch Sector 4",
+          "category": "Roads & Traffic",
+          "similarityScore": 0,
+          "distanceMeters": 162,
+          "timeDeltaHours": 893,
+          "matchingTerms": [],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-004",
+      "severityIndicator": "high",
+      "riskScore": 46,
+      "evidence": [
+        "High spatial proximity: 0m from Report REP-2026-015",
+        "Temporal window: within 0.3 hours of prior submission",
+        "Key shared terms: test, manhole, overflow manhole, sidewalk test",
+        "AI Interpretation: Potential duplicate citizen report regarding the same underlying ground event",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 3 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T13:09:15.963Z"
+    },
+    {
+      "reportId": "REP-2026-018",
+      "categoryPredicted": "Water & Drainage",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "sidewalk test",
+        "test",
+        "manhole",
+        "overflow manhole",
+        "overflow",
+        "automat"
+      ],
+      "entities": {
+        "locations": [],
+        "infrastructure": [
+          "manhole",
+          "sidewalk"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.95,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-015",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0.3,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-016",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-017",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-002",
+          "reportTitle": "Main stormwater drain blocked near Sector 4 Market",
+          "category": "Water & Drainage",
+          "similarityScore": 0.014,
+          "distanceMeters": 81,
+          "timeDeltaHours": 893.4,
+          "matchingTerms": [
+            "onto"
+          ],
+          "isPotentialDuplicate": false
+        },
+        {
+          "reportId": "REP-2026-001",
+          "reportTitle": "Water accumulation near Sector 4 Market entrance",
+          "category": "Water & Drainage",
+          "similarityScore": 0,
+          "distanceMeters": 125,
+          "timeDeltaHours": 893.9,
+          "matchingTerms": [],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-004",
+      "severityIndicator": "high",
+      "riskScore": 46,
+      "evidence": [
+        "High spatial proximity: 0m from Report REP-2026-015",
+        "Temporal window: within 0.3 hours of prior submission",
+        "Key shared terms: sidewalk test, test, manhole, overflow manhole",
+        "AI Interpretation: Potential duplicate citizen report regarding the same underlying ground event",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 4 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T13:09:34.964Z"
+    },
+    {
+      "reportId": "REP-2026-019",
+      "categoryPredicted": "Water & Drainage",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "sidewalk test",
+        "test",
+        "manhole",
+        "overflow manhole",
+        "overflow",
+        "automat"
+      ],
+      "entities": {
+        "locations": [],
+        "infrastructure": [
+          "manhole",
+          "sidewalk"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.95,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-015",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0.3,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-016",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-017",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-018",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-002",
+          "reportTitle": "Main stormwater drain blocked near Sector 4 Market",
+          "category": "Water & Drainage",
+          "similarityScore": 0.014,
+          "distanceMeters": 81,
+          "timeDeltaHours": 893.4,
+          "matchingTerms": [
+            "onto"
+          ],
+          "isPotentialDuplicate": false
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-004",
+      "severityIndicator": "high",
+      "riskScore": 46,
+      "evidence": [
+        "High spatial proximity: 0m from Report REP-2026-015",
+        "Temporal window: within 0.3 hours of prior submission",
+        "Key shared terms: sidewalk test, test, manhole, overflow manhole",
+        "AI Interpretation: Potential duplicate citizen report regarding the same underlying ground event",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 5 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T13:09:38.720Z"
+    },
+    {
+      "reportId": "REP-2026-020",
+      "categoryPredicted": "Water & Drainage",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "sidewalk test",
+        "test",
+        "manhole",
+        "overflow manhole",
+        "overflow",
+        "automat"
+      ],
+      "entities": {
+        "locations": [],
+        "infrastructure": [
+          "manhole",
+          "sidewalk"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.95,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-015",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0.3,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-016",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-017",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-018",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-019",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-004",
+      "severityIndicator": "high",
+      "riskScore": 46,
+      "evidence": [
+        "High spatial proximity: 0m from Report REP-2026-015",
+        "Temporal window: within 0.3 hours of prior submission",
+        "Key shared terms: sidewalk test, test, manhole, overflow manhole",
+        "AI Interpretation: Potential duplicate citizen report regarding the same underlying ground event",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 6 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T13:09:45.169Z"
+    },
+    {
+      "reportId": "REP-2026-021",
+      "categoryPredicted": "Water & Drainage",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "sidewalk test",
+        "test",
+        "manhole",
+        "overflow manhole",
+        "overflow",
+        "automat"
+      ],
+      "entities": {
+        "locations": [],
+        "infrastructure": [
+          "manhole",
+          "sidewalk"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.95,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-015",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0.7,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-016",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0.5,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-017",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0.5,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-018",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0.5,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-019",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0.5,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-004",
+      "severityIndicator": "high",
+      "riskScore": 46,
+      "evidence": [
+        "High spatial proximity: 0m from Report REP-2026-015",
+        "Temporal window: within 0.7 hours of prior submission",
+        "Key shared terms: sidewalk test, test, manhole, overflow manhole",
+        "AI Interpretation: Potential duplicate citizen report regarding the same underlying ground event",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 7 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T13:37:43.770Z"
+    },
+    {
+      "reportId": "REP-2026-022",
+      "categoryPredicted": "Water & Drainage",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "sidewalk test",
+        "test",
+        "manhole",
+        "overflow manhole",
+        "overflow",
+        "automat"
+      ],
+      "entities": {
+        "locations": [],
+        "infrastructure": [
+          "manhole",
+          "sidewalk"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.95,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-015",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 1.2,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-016",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0.9,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-017",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0.9,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-018",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0.9,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-019",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 0.9,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-004",
+      "severityIndicator": "high",
+      "riskScore": 46,
+      "evidence": [
+        "High spatial proximity: 0m from Report REP-2026-015",
+        "Temporal window: within 1.2 hours of prior submission",
+        "Key shared terms: sidewalk test, test, manhole, overflow manhole",
+        "AI Interpretation: Potential duplicate citizen report regarding the same underlying ground event",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 8 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T14:05:39.435Z"
+    },
+    {
+      "reportId": "REP-2026-023",
+      "categoryPredicted": "Water & Drainage",
+      "categoryConfidence": 0.55,
+      "keywords": [
+        "sidewalk test",
+        "test",
+        "manhole",
+        "overflow manhole",
+        "overflow",
+        "automat"
+      ],
+      "entities": {
+        "locations": [],
+        "infrastructure": [
+          "manhole",
+          "sidewalk"
+        ],
+        "hazards": [],
+        "temporal": []
+      },
+      "sentiment": "negative",
+      "duplicateProbability": 0.95,
+      "topSimilarReports": [
+        {
+          "reportId": "REP-2026-015",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 1.2,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-016",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 1,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-017",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 1,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-018",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 1,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        },
+        {
+          "reportId": "REP-2026-019",
+          "reportTitle": "Automated Test Overflowing Manhole",
+          "category": "Water & Drainage",
+          "similarityScore": 1,
+          "distanceMeters": 0,
+          "timeDeltaHours": 1,
+          "matchingTerms": [
+            "sidewalk test",
+            "test",
+            "manhole",
+            "overflow manhole"
+          ],
+          "isPotentialDuplicate": true
+        }
+      ],
+      "possibleIncident": true,
+      "incidentClusterId": "CLUSTER-004",
+      "severityIndicator": "high",
+      "riskScore": 46,
+      "evidence": [
+        "High spatial proximity: 0m from Report REP-2026-015",
+        "Temporal window: within 1.2 hours of prior submission",
+        "Key shared terms: sidewalk test, test, manhole, overflow manhole",
+        "AI Interpretation: Potential duplicate citizen report regarding the same underlying ground event",
+        "Supervised TF-IDF classification confidence: 55%",
+        "Spatio-temporal cluster detected: linked to 9 related observations in 80m radius"
+      ],
+      "confidence": 0.55,
+      "processedAt": "2026-11-09T14:07:26.910Z"
+    }
+  ],
+  "assignments": [],
+  "resolutions": [],
+  "inspections": [
+    {
+      "id": "INSP-2026-001",
+      "incidentId": "INC-2026-001",
+      "officerId": "USR-OFF-01",
+      "officerName": "Vikram Sharma",
+      "verifiedStatus": "verified_match",
+      "observations": "On-site physical inspection confirmed severe storm sewer blockage with heavy silt and commercial plastic accumulation opposite Gate 2. Stagnant water depth measured at 9 inches.",
+      "checklist": {
+        "physicalVerification": true,
+        "safetyHazardAssessed": true,
+        "structuralDamageChecked": true,
+        "utilityImpactVerified": false
+      },
+      "evidencePhotos": [
+        "https://images.unsplash.com/photo-1547683905-f686c993aae5?auto=format&fit=crop&w=400&q=80"
+      ],
+      "recommendedAction": "Immediate deployment of municipal suction jetting unit and manual culvert clearing by Water & Sewerage team.",
+      "inspectionDate": "2026-10-03T09:30:00.000Z",
+      "createdAt": "2026-10-03T09:30:00.000Z",
+      "departmentVerified": true,
+      "departmentRemarks": "Inspection verified by Department Desk Officer. Suction team dispatched under Work Order #WSD-401.",
+      "verifiedByOfficerId": "USR-DEPT-01",
+      "verifiedByOfficerName": "Er. Sunita Patel",
+      "verifiedAt": "2026-10-03T10:00:00.000Z"
+    },
+    {
+      "incidentId": "INC-2026-001",
+      "officerId": "USR-OFF-01",
+      "officerName": "Vikram Sharma",
+      "verifiedStatus": "verified_match",
+      "observations": "Physical site verification completed at West Boulevard. Ground water accumulation is 12 inches deep across 40 meters. Drainage sump inlet is clogged with heavy silt.",
+      "checklist": {
+        "physicalVerification": true,
+        "safetyHazardAssessed": true,
+        "structuralDamageChecked": true,
+        "utilityImpactVerified": false
+      },
+      "evidencePhotos": [],
+      "recommendedAction": "Dispatch Jetting and Sucker machine immediately.",
+      "inspectionDate": "2026-11-09T14:06:48.642Z",
+      "id": "INSP-208642",
+      "createdAt": "2026-11-09T14:06:48.642Z",
+      "departmentVerified": true,
+      "departmentRemarks": "Verified on satellite and work order scheduled. Heavy jetting crew dispatched.",
+      "verifiedByOfficerId": "USR-DEPT-01",
+      "verifiedByOfficerName": "Er. Sunita Patel",
+      "verifiedAt": "2026-11-09T14:07:08.265Z"
+    }
+  ],
+  "notifications": [
+    {
+      "userId": "USR-CIT-01",
+      "title": "Report Received & Analyzed",
+      "message": "Your report REP-2026-023 was logged. AI identified category as \"Water & Drainage\" (55% confidence).",
+      "type": "report_status",
+      "link": "REP-2026-023",
+      "id": "NOTIF-1794233246912-926",
+      "read": false,
+      "createdAt": "2026-11-09T14:07:26.912Z"
+    },
+    {
+      "userId": "USR-AUTH-01",
+      "title": "CRITICAL ESCALATION: Incident P1 Priority",
+      "message": "Incident INC-2026-001 escalated by Er. Sunita Patel: \"High water level near primary power transformer requires emergency priority.\"",
+      "type": "incident_alert",
+      "link": "INC-2026-001",
+      "id": "NOTIF-1794233234552-63",
+      "read": false,
+      "createdAt": "2026-11-09T14:07:14.552Z"
+    },
+    {
+      "userId": "USR-ADMIN-01",
+      "title": "CRITICAL ESCALATION: Incident P1 Priority",
+      "message": "Incident INC-2026-001 escalated by Er. Sunita Patel: \"High water level near primary power transformer requires emergency priority.\"",
+      "type": "incident_alert",
+      "link": "INC-2026-001",
+      "id": "NOTIF-1794233234552-591",
+      "read": false,
+      "createdAt": "2026-11-09T14:07:14.552Z"
+    },
+    {
+      "userId": "USR-DEPT-01",
+      "title": "New Field Inspection Submitted",
+      "message": "Field officer Vikram Sharma submitted inspection INSP-208642 for incident INC-2026-001. Requires verification.",
+      "type": "incident_alert",
+      "link": "INC-2026-001",
+      "id": "NOTIF-1794233208647-677",
+      "read": false,
+      "createdAt": "2026-11-09T14:06:48.647Z"
+    },
+    {
+      "userId": "USR-AUTH-01",
+      "title": "New Field Inspection Submitted",
+      "message": "Field officer Vikram Sharma submitted inspection INSP-208642 for incident INC-2026-001. Requires verification.",
+      "type": "incident_alert",
+      "link": "INC-2026-001",
+      "id": "NOTIF-1794233208643-305",
+      "read": false,
+      "createdAt": "2026-11-09T14:06:48.643Z"
+    },
+    {
+      "userId": "USR-CIT-01",
+      "title": "Report Received & Analyzed",
+      "message": "Your report REP-2026-022 was logged. AI identified category as \"Water & Drainage\" (55% confidence).",
+      "type": "report_status",
+      "link": "REP-2026-022",
+      "id": "NOTIF-1794233139436-951",
+      "read": false,
+      "createdAt": "2026-11-09T14:05:39.436Z"
+    },
+    {
+      "userId": "USR-CIT-01",
+      "title": "Report Received & Analyzed",
+      "message": "Your report REP-2026-021 was logged. AI identified category as \"Water & Drainage\" (55% confidence).",
+      "type": "report_status",
+      "link": "REP-2026-021",
+      "id": "NOTIF-1794231463771-63",
+      "read": false,
+      "createdAt": "2026-11-09T13:37:43.771Z"
+    },
+    {
+      "userId": "USR-CIT-01",
+      "title": "Report Received & Analyzed",
+      "message": "Your report REP-2026-020 was logged. AI identified category as \"Water & Drainage\" (55% confidence).",
+      "type": "report_status",
+      "link": "REP-2026-020",
+      "id": "NOTIF-1794229785170-536",
+      "read": false,
+      "createdAt": "2026-11-09T13:09:45.170Z"
+    },
+    {
+      "userId": "USR-CIT-01",
+      "title": "Report Received & Analyzed",
+      "message": "Your report REP-2026-019 was logged. AI identified category as \"Water & Drainage\" (55% confidence).",
+      "type": "report_status",
+      "link": "REP-2026-019",
+      "id": "NOTIF-1794229778723-209",
+      "read": false,
+      "createdAt": "2026-11-09T13:09:38.723Z"
+    },
+    {
+      "userId": "USR-CIT-01",
+      "title": "Report Received & Analyzed",
+      "message": "Your report REP-2026-018 was logged. AI identified category as \"Water & Drainage\" (55% confidence).",
+      "type": "report_status",
+      "link": "REP-2026-018",
+      "id": "NOTIF-1794229774965-860",
+      "read": false,
+      "createdAt": "2026-11-09T13:09:34.965Z"
+    },
+    {
+      "userId": "USR-CIT-01",
+      "title": "Report Received & Analyzed",
+      "message": "Your report REP-2026-017 was logged. AI identified category as \"Water & Drainage\" (55% confidence).",
+      "type": "report_status",
+      "link": "REP-2026-017",
+      "id": "NOTIF-1794229755964-695",
+      "read": false,
+      "createdAt": "2026-11-09T13:09:15.964Z"
+    },
+    {
+      "userId": "USR-CIT-01",
+      "title": "Report Received & Analyzed",
+      "message": "Your report REP-2026-016 was logged. AI identified category as \"Water & Drainage\" (55% confidence).",
+      "type": "report_status",
+      "link": "REP-2026-016",
+      "id": "NOTIF-1794229752265-907",
+      "read": false,
+      "createdAt": "2026-11-09T13:09:12.265Z"
+    },
+    {
+      "userId": "USR-CIT-01",
+      "title": "Report Received & Analyzed",
+      "message": "Your report REP-2026-015 was logged. AI identified category as \"Water & Drainage\" (55% confidence).",
+      "type": "report_status",
+      "link": "REP-2026-015",
+      "id": "NOTIF-1794228764157-341",
+      "read": false,
+      "createdAt": "2026-11-09T12:52:44.157Z"
+    },
+    {
+      "id": "NOTIF-01",
+      "userId": "USR-CIT-01",
+      "title": "Report Analyzed",
+      "message": "Your report REP-2026-001 (Water accumulation) was analyzed by SCIP and linked to Potential Incident INC-2026-001.",
+      "type": "report_status",
+      "read": false,
+      "link": "REP-2026-001",
+      "createdAt": "2026-10-03T07:25:00.000Z"
+    },
+    {
+      "id": "NOTIF-02",
+      "userId": "USR-AUTH-01",
+      "title": "New Potential Incident Detected",
+      "message": "SCIP Intelligence Agent detected Potential Incident INC-2026-001 (Drainage Failure at Sector 4 Market) with 4 linked observations.",
+      "type": "incident_alert",
+      "read": false,
+      "link": "INC-2026-001",
+      "createdAt": "2026-10-03T08:45:00.000Z"
+    },
+    {
+      "id": "NOTIF-03",
+      "userId": "USR-OFF-01",
+      "title": "Incident Assigned",
+      "message": "You have been assigned to investigate and coordinate Incident INC-2026-002 on West Boulevard.",
+      "type": "assignment",
+      "read": true,
+      "link": "INC-2026-002",
+      "createdAt": "2026-10-02T19:30:00.000Z"
+    }
+  ],
+  "feedbacks": [
+    {
+      "reportId": "REP-2026-001",
+      "userId": "USR-CIT-01",
+      "userName": "Priya Sharma",
+      "rating": 5,
+      "comments": "Water cleared within 3 hours. Great response time!",
+      "id": "FB-246921",
+      "createdAt": "2026-11-09T14:07:26.921Z"
+    },
+    {
+      "reportId": "REP-2026-001",
+      "userId": "USR-CIT-01",
+      "userName": "Priya Sharma",
+      "rating": 5,
+      "comments": "Water cleared within 3 hours. Great response time!",
+      "id": "FB-139443",
+      "createdAt": "2026-11-09T14:05:39.443Z"
+    },
+    {
+      "reportId": "REP-2026-001",
+      "userId": "USR-CIT-01",
+      "userName": "Priya Sharma",
+      "rating": 5,
+      "comments": "Water cleared within 3 hours. Great response time!",
+      "id": "FB-463782",
+      "createdAt": "2026-11-09T13:37:43.782Z"
+    },
+    {
+      "reportId": "REP-2026-001",
+      "userId": "USR-CIT-01",
+      "userName": "Priya Sharma",
+      "rating": 5,
+      "comments": "Water cleared within 3 hours. Great response time!",
+      "id": "FB-785176",
+      "createdAt": "2026-11-09T13:09:45.176Z"
+    },
+    {
+      "reportId": "REP-2026-001",
+      "userId": "USR-CIT-01",
+      "userName": "Priya Sharma",
+      "rating": 5,
+      "comments": "Water cleared within 3 hours. Great response time!",
+      "id": "FB-778729",
+      "createdAt": "2026-11-09T13:09:38.729Z"
+    },
+    {
+      "reportId": "REP-2026-001",
+      "userId": "USR-CIT-01",
+      "userName": "Priya Sharma",
+      "rating": 5,
+      "comments": "Water cleared within 3 hours. Great response time!",
+      "id": "FB-774969",
+      "createdAt": "2026-11-09T13:09:34.969Z"
+    },
+    {
+      "reportId": "REP-2026-001",
+      "userId": "USR-CIT-01",
+      "userName": "Priya Sharma",
+      "rating": 5,
+      "comments": "Water cleared within 3 hours. Great response time!",
+      "id": "FB-755969",
+      "createdAt": "2026-11-09T13:09:15.969Z"
+    },
+    {
+      "reportId": "REP-2026-001",
+      "userId": "USR-CIT-01",
+      "userName": "Priya Sharma",
+      "rating": 5,
+      "comments": "Water cleared within 3 hours. Great response time!",
+      "id": "FB-752269",
+      "createdAt": "2026-11-09T13:09:12.269Z"
+    },
+    {
+      "reportId": "REP-2026-001",
+      "userId": "USR-CIT-01",
+      "userName": "Priya Sharma",
+      "rating": 5,
+      "comments": "Water cleared within 3 hours. Great response time!",
+      "id": "FB-764160",
+      "createdAt": "2026-11-09T12:52:44.160Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "action": "INCIDENT_REVIEWED",
+      "module": "incidents",
+      "recordId": "INC-2026-001",
+      "userId": "USR-AUTH-01",
+      "userEmail": "director@scip.gov",
+      "userRole": "authority",
+      "ipAddress": "127.0.0.1",
+      "details": "Confirmed incident INC-2026-001. Notes: Confirmed road flooding. Urgent pump trucks dispatched.",
+      "id": "AUD-1794233246919-525",
+      "timestamp": "2026-11-09T14:07:26.919Z"
+    },
+    {
+      "action": "REPORT_CREATED",
+      "module": "reports",
+      "recordId": "REP-2026-023",
+      "userId": "USR-CIT-01",
+      "userEmail": "citizen.jane@scip.gov",
+      "userRole": "citizen",
+      "ipAddress": "127.0.0.1",
+      "details": "Report submitted: \"Automated Test Overflowing Manhole\" at Test Boulevard Junction",
+      "id": "AUD-1794233246911-211",
+      "timestamp": "2026-11-09T14:07:26.911Z"
+    },
+    {
+      "action": "AI_ANALYSIS_COMPLETED",
+      "module": "intelligence",
+      "recordId": "REP-2026-023",
+      "userId": "SYSTEM_AI",
+      "userEmail": "ai.pipeline@scip.internal",
+      "userRole": "admin",
+      "ipAddress": "127.0.0.1",
+      "details": "AI Analysis completed for REP-2026-023: Water & Drainage (Risk: 46/100)",
+      "id": "AUD-1794233246910-108",
+      "timestamp": "2026-11-09T14:07:26.910Z"
+    },
+    {
+      "action": "LOGIN_SUCCESS",
+      "module": "auth",
+      "userId": "USR-ANL-01",
+      "userEmail": "analyst.rao@scip.gov",
+      "userRole": "analyst",
+      "ipAddress": "127.0.0.1",
+      "details": "Demo session activated for role: analyst (Dr. Kavita Rao)",
+      "id": "AUD-1794233240605-169",
+      "timestamp": "2026-11-09T14:07:20.605Z"
+    },
+    {
+      "action": "INCIDENT_REVIEWED",
+      "module": "incidents",
+      "recordId": "INC-2026-001",
+      "userId": "USR-DEPT-01",
+      "userEmail": "dept.patel@scip.gov",
+      "userRole": "dept_officer",
+      "ipAddress": "127.0.0.1",
+      "details": "Escalated incident INC-2026-001 to P1_CRITICAL. Reason: High water level near primary power transformer requires emergency priority.",
+      "id": "AUD-1794233234551-154",
+      "timestamp": "2026-11-09T14:07:14.551Z"
+    },
+    {
+      "action": "LOGIN_SUCCESS",
+      "module": "auth",
+      "userId": "USR-DEPT-01",
+      "userEmail": "dept.patel@scip.gov",
+      "userRole": "dept_officer",
+      "ipAddress": "127.0.0.1",
+      "details": "Demo session activated for role: dept_officer (Er. Sunita Patel)",
+      "id": "AUD-1794233234503-847",
+      "timestamp": "2026-11-09T14:07:14.503Z"
+    },
+    {
+      "action": "INCIDENT_REVIEWED",
+      "module": "incidents",
+      "recordId": "INC-2026-001",
+      "userId": "USR-DEPT-01",
+      "userEmail": "dept.patel@scip.gov",
+      "userRole": "dept_officer",
+      "ipAddress": "127.0.0.1",
+      "details": "Department Officer Er. Sunita Patel approved inspection INSP-208642",
+      "id": "AUD-1794233228265-513",
+      "timestamp": "2026-11-09T14:07:08.265Z"
+    },
+    {
+      "action": "LOGIN_SUCCESS",
+      "module": "auth",
+      "userId": "USR-DEPT-01",
+      "userEmail": "dept.patel@scip.gov",
+      "userRole": "dept_officer",
+      "ipAddress": "127.0.0.1",
+      "details": "Demo session activated for role: dept_officer (Er. Sunita Patel)",
+      "id": "AUD-1794233228241-828",
+      "timestamp": "2026-11-09T14:07:08.241Z"
+    },
+    {
+      "action": "INCIDENT_REVIEWED",
+      "module": "incidents",
+      "recordId": "INC-2026-001",
+      "userId": "USR-OFF-01",
+      "userEmail": "officer.sharma@scip.gov",
+      "userRole": "officer",
+      "ipAddress": "127.0.0.1",
+      "details": "Field officer Vikram Sharma submitted inspection report INSP-208642 (Status: verified_match)",
+      "id": "AUD-1794233208642-517",
+      "timestamp": "2026-11-09T14:06:48.642Z"
+    },
+    {
+      "action": "LOGIN_SUCCESS",
+      "module": "auth",
+      "userId": "USR-OFF-01",
+      "userEmail": "officer.sharma@scip.gov",
+      "userRole": "officer",
+      "ipAddress": "127.0.0.1",
+      "details": "Demo session activated for role: officer (Vikram Sharma)",
+      "id": "AUD-1794233208614-566",
+      "timestamp": "2026-11-09T14:06:48.614Z"
+    },
+    {
+      "action": "LOGIN_SUCCESS",
+      "module": "auth",
+      "userId": "USR-ANL-01",
+      "userEmail": "analyst.rao@scip.gov",
+      "userRole": "analyst",
+      "ipAddress": "127.0.0.1",
+      "details": "Demo session activated for role: analyst (Dr. Kavita Rao)",
+      "id": "AUD-1794233201576-622",
+      "timestamp": "2026-11-09T14:06:41.576Z"
+    },
+    {
+      "action": "LOGIN_SUCCESS",
+      "module": "auth",
+      "userId": "USR-ANL-01",
+      "userEmail": "analyst.rao@scip.gov",
+      "userRole": "analyst",
+      "ipAddress": "127.0.0.1",
+      "details": "Demo session activated for role: analyst (Dr. Kavita Rao)",
+      "id": "AUD-1794233194407-712",
+      "timestamp": "2026-11-09T14:06:34.407Z"
+    },
+    {
+      "action": "INCIDENT_REVIEWED",
+      "module": "incidents",
+      "recordId": "INC-2026-001",
+      "userId": "USR-AUTH-01",
+      "userEmail": "director@scip.gov",
+      "userRole": "authority",
+      "ipAddress": "127.0.0.1",
+      "details": "Confirmed incident INC-2026-001. Notes: Confirmed road flooding. Urgent pump trucks dispatched.",
+      "id": "AUD-1794233139441-687",
+      "timestamp": "2026-11-09T14:05:39.441Z"
+    },
+    {
+      "action": "REPORT_CREATED",
+      "module": "reports",
+      "recordId": "REP-2026-022",
+      "userId": "USR-CIT-01",
+      "userEmail": "citizen.jane@scip.gov",
+      "userRole": "citizen",
+      "ipAddress": "127.0.0.1",
+      "details": "Report submitted: \"Automated Test Overflowing Manhole\" at Test Boulevard Junction",
+      "id": "AUD-1794233139436-64",
+      "timestamp": "2026-11-09T14:05:39.436Z"
+    },
+    {
+      "action": "AI_ANALYSIS_COMPLETED",
+      "module": "intelligence",
+      "recordId": "REP-2026-022",
+      "userId": "SYSTEM_AI",
+      "userEmail": "ai.pipeline@scip.internal",
+      "userRole": "admin",
+      "ipAddress": "127.0.0.1",
+      "details": "AI Analysis completed for REP-2026-022: Water & Drainage (Risk: 46/100)",
+      "id": "AUD-1794233139435-469",
+      "timestamp": "2026-11-09T14:05:39.435Z"
+    },
+    {
+      "action": "LOGIN_SUCCESS",
+      "module": "auth",
+      "userId": "USR-ADMIN-01",
+      "userEmail": "admin@scip.gov",
+      "userRole": "admin",
+      "ipAddress": "127.0.0.1",
+      "details": "Demo session activated for role: admin (Adarsh Verma)",
+      "id": "AUD-1794232739593-470",
+      "timestamp": "2026-11-09T13:58:59.593Z"
+    },
+    {
+      "action": "INCIDENT_REVIEWED",
+      "module": "incidents",
+      "recordId": "INC-2026-001",
+      "userId": "USR-AUTH-01",
+      "userEmail": "director@scip.gov",
+      "userRole": "authority",
+      "ipAddress": "127.0.0.1",
+      "details": "Confirmed incident INC-2026-001. Notes: Confirmed road flooding. Urgent pump trucks dispatched.",
+      "id": "AUD-1794231463779-801",
+      "timestamp": "2026-11-09T13:37:43.780Z"
+    },
+    {
+      "action": "REPORT_CREATED",
+      "module": "reports",
+      "recordId": "REP-2026-021",
+      "userId": "USR-CIT-01",
+      "userEmail": "citizen.jane@scip.gov",
+      "userRole": "citizen",
+      "ipAddress": "127.0.0.1",
+      "details": "Report submitted: \"Automated Test Overflowing Manhole\" at Test Boulevard Junction",
+      "id": "AUD-1794231463771-262",
+      "timestamp": "2026-11-09T13:37:43.771Z"
+    },
+    {
+      "action": "AI_ANALYSIS_COMPLETED",
+      "module": "intelligence",
+      "recordId": "REP-2026-021",
+      "userId": "SYSTEM_AI",
+      "userEmail": "ai.pipeline@scip.internal",
+      "userRole": "admin",
+      "ipAddress": "127.0.0.1",
+      "details": "AI Analysis completed for REP-2026-021: Water & Drainage (Risk: 46/100)",
+      "id": "AUD-1794231463770-414",
+      "timestamp": "2026-11-09T13:37:43.770Z"
+    },
+    {
+      "action": "INCIDENT_REVIEWED",
+      "module": "incidents",
+      "recordId": "INC-2026-001",
+      "userId": "USR-AUTH-01",
+      "userEmail": "director@scip.gov",
+      "userRole": "authority",
+      "ipAddress": "127.0.0.1",
+      "details": "Confirmed incident INC-2026-001. Notes: Confirmed road flooding. Urgent pump trucks dispatched.",
+      "id": "AUD-1794229785174-278",
+      "timestamp": "2026-11-09T13:09:45.174Z"
+    },
+    {
+      "action": "REPORT_CREATED",
+      "module": "reports",
+      "recordId": "REP-2026-020",
+      "userId": "USR-CIT-01",
+      "userEmail": "citizen.jane@scip.gov",
+      "userRole": "citizen",
+      "ipAddress": "127.0.0.1",
+      "details": "Report submitted: \"Automated Test Overflowing Manhole\" at Test Boulevard Junction",
+      "id": "AUD-1794229785170-777",
+      "timestamp": "2026-11-09T13:09:45.170Z"
+    },
+    {
+      "action": "AI_ANALYSIS_COMPLETED",
+      "module": "intelligence",
+      "recordId": "REP-2026-020",
+      "userId": "SYSTEM_AI",
+      "userEmail": "ai.pipeline@scip.internal",
+      "userRole": "admin",
+      "ipAddress": "127.0.0.1",
+      "details": "AI Analysis completed for REP-2026-020: Water & Drainage (Risk: 46/100)",
+      "id": "AUD-1794229785169-675",
+      "timestamp": "2026-11-09T13:09:45.169Z"
+    },
+    {
+      "action": "INCIDENT_REVIEWED",
+      "module": "incidents",
+      "recordId": "INC-2026-001",
+      "userId": "USR-AUTH-01",
+      "userEmail": "director@scip.gov",
+      "userRole": "authority",
+      "ipAddress": "127.0.0.1",
+      "details": "Confirmed incident INC-2026-001. Notes: Confirmed road flooding. Urgent pump trucks dispatched.",
+      "id": "AUD-1794229778728-589",
+      "timestamp": "2026-11-09T13:09:38.728Z"
+    },
+    {
+      "action": "REPORT_CREATED",
+      "module": "reports",
+      "recordId": "REP-2026-019",
+      "userId": "USR-CIT-01",
+      "userEmail": "citizen.jane@scip.gov",
+      "userRole": "citizen",
+      "ipAddress": "127.0.0.1",
+      "details": "Report submitted: \"Automated Test Overflowing Manhole\" at Test Boulevard Junction",
+      "id": "AUD-1794229778722-313",
+      "timestamp": "2026-11-09T13:09:38.722Z"
+    },
+    {
+      "action": "AI_ANALYSIS_COMPLETED",
+      "module": "intelligence",
+      "recordId": "REP-2026-019",
+      "userId": "SYSTEM_AI",
+      "userEmail": "ai.pipeline@scip.internal",
+      "userRole": "admin",
+      "ipAddress": "127.0.0.1",
+      "details": "AI Analysis completed for REP-2026-019: Water & Drainage (Risk: 46/100)",
+      "id": "AUD-1794229778720-16",
+      "timestamp": "2026-11-09T13:09:38.720Z"
+    },
+    {
+      "action": "INCIDENT_REVIEWED",
+      "module": "incidents",
+      "recordId": "INC-2026-001",
+      "userId": "USR-AUTH-01",
+      "userEmail": "director@scip.gov",
+      "userRole": "authority",
+      "ipAddress": "127.0.0.1",
+      "details": "Confirmed incident INC-2026-001. Notes: Confirmed road flooding. Urgent pump trucks dispatched.",
+      "id": "AUD-1794229774968-600",
+      "timestamp": "2026-11-09T13:09:34.968Z"
+    },
+    {
+      "action": "REPORT_CREATED",
+      "module": "reports",
+      "recordId": "REP-2026-018",
+      "userId": "USR-CIT-01",
+      "userEmail": "citizen.jane@scip.gov",
+      "userRole": "citizen",
+      "ipAddress": "127.0.0.1",
+      "details": "Report submitted: \"Automated Test Overflowing Manhole\" at Test Boulevard Junction",
+      "id": "AUD-1794229774965-842",
+      "timestamp": "2026-11-09T13:09:34.965Z"
+    },
+    {
+      "action": "AI_ANALYSIS_COMPLETED",
+      "module": "intelligence",
+      "recordId": "REP-2026-018",
+      "userId": "SYSTEM_AI",
+      "userEmail": "ai.pipeline@scip.internal",
+      "userRole": "admin",
+      "ipAddress": "127.0.0.1",
+      "details": "AI Analysis completed for REP-2026-018: Water & Drainage (Risk: 46/100)",
+      "id": "AUD-1794229774964-423",
+      "timestamp": "2026-11-09T13:09:34.964Z"
+    },
+    {
+      "action": "INCIDENT_REVIEWED",
+      "module": "incidents",
+      "recordId": "INC-2026-001",
+      "userId": "USR-AUTH-01",
+      "userEmail": "director@scip.gov",
+      "userRole": "authority",
+      "ipAddress": "127.0.0.1",
+      "details": "Confirmed incident INC-2026-001. Notes: Confirmed road flooding. Urgent pump trucks dispatched.",
+      "id": "AUD-1794229755967-30",
+      "timestamp": "2026-11-09T13:09:15.967Z"
+    },
+    {
+      "action": "REPORT_CREATED",
+      "module": "reports",
+      "recordId": "REP-2026-017",
+      "userId": "USR-CIT-01",
+      "userEmail": "citizen.jane@scip.gov",
+      "userRole": "citizen",
+      "ipAddress": "127.0.0.1",
+      "details": "Report submitted: \"Automated Test Overflowing Manhole\" at Test Boulevard Junction",
+      "id": "AUD-1794229755963-689",
+      "timestamp": "2026-11-09T13:09:15.963Z"
+    },
+    {
+      "action": "AI_ANALYSIS_COMPLETED",
+      "module": "intelligence",
+      "recordId": "REP-2026-017",
+      "userId": "SYSTEM_AI",
+      "userEmail": "ai.pipeline@scip.internal",
+      "userRole": "admin",
+      "ipAddress": "127.0.0.1",
+      "details": "AI Analysis completed for REP-2026-017: Water & Drainage (Risk: 46/100)",
+      "id": "AUD-1794229755963-1",
+      "timestamp": "2026-11-09T13:09:15.963Z"
+    },
+    {
+      "action": "INCIDENT_REVIEWED",
+      "module": "incidents",
+      "recordId": "INC-2026-001",
+      "userId": "USR-AUTH-01",
+      "userEmail": "director@scip.gov",
+      "userRole": "authority",
+      "ipAddress": "127.0.0.1",
+      "details": "Confirmed incident INC-2026-001. Notes: Confirmed road flooding. Urgent pump trucks dispatched.",
+      "id": "AUD-1794229752268-229",
+      "timestamp": "2026-11-09T13:09:12.268Z"
+    },
+    {
+      "action": "REPORT_CREATED",
+      "module": "reports",
+      "recordId": "REP-2026-016",
+      "userId": "USR-CIT-01",
+      "userEmail": "citizen.jane@scip.gov",
+      "userRole": "citizen",
+      "ipAddress": "127.0.0.1",
+      "details": "Report submitted: \"Automated Test Overflowing Manhole\" at Test Boulevard Junction",
+      "id": "AUD-1794229752264-603",
+      "timestamp": "2026-11-09T13:09:12.264Z"
+    },
+    {
+      "action": "AI_ANALYSIS_COMPLETED",
+      "module": "intelligence",
+      "recordId": "REP-2026-016",
+      "userId": "SYSTEM_AI",
+      "userEmail": "ai.pipeline@scip.internal",
+      "userRole": "admin",
+      "ipAddress": "127.0.0.1",
+      "details": "AI Analysis completed for REP-2026-016: Water & Drainage (Risk: 46/100)",
+      "id": "AUD-1794229752264-425",
+      "timestamp": "2026-11-09T13:09:12.264Z"
+    },
+    {
+      "action": "INCIDENT_REVIEWED",
+      "module": "incidents",
+      "recordId": "INC-2026-001",
+      "userId": "USR-AUTH-01",
+      "userEmail": "director@scip.gov",
+      "userRole": "authority",
+      "ipAddress": "127.0.0.1",
+      "details": "Confirmed incident INC-2026-001. Notes: Confirmed road flooding. Urgent pump trucks dispatched.",
+      "id": "AUD-1794228764159-419",
+      "timestamp": "2026-11-09T12:52:44.159Z"
+    },
+    {
+      "action": "REPORT_CREATED",
+      "module": "reports",
+      "recordId": "REP-2026-015",
+      "userId": "USR-CIT-01",
+      "userEmail": "citizen.jane@scip.gov",
+      "userRole": "citizen",
+      "ipAddress": "127.0.0.1",
+      "details": "Report submitted: \"Automated Test Overflowing Manhole\" at Test Boulevard Junction",
+      "id": "AUD-1794228764156-507",
+      "timestamp": "2026-11-09T12:52:44.156Z"
+    },
+    {
+      "action": "AI_ANALYSIS_COMPLETED",
+      "module": "intelligence",
+      "recordId": "REP-2026-015",
+      "userId": "SYSTEM_AI",
+      "userEmail": "ai.pipeline@scip.internal",
+      "userRole": "admin",
+      "ipAddress": "127.0.0.1",
+      "details": "AI Analysis completed for REP-2026-015: Water & Drainage (Risk: 46/100)",
+      "id": "AUD-1794228764156-488",
+      "timestamp": "2026-11-09T12:52:44.156Z"
+    },
+    {
+      "id": "AUD-001",
+      "action": "LOGIN_SUCCESS",
+      "module": "auth",
+      "userId": "USR-ADMIN-01",
+      "userEmail": "admin@scip.gov",
+      "userRole": "admin",
+      "ipAddress": "192.168.1.101",
+      "details": "Administrator logged into SCIP Enterprise Console",
+      "timestamp": "2026-10-03T06:00:00.000Z"
+    },
+    {
+      "id": "AUD-002",
+      "action": "REPORT_CREATED",
+      "module": "reports",
+      "recordId": "REP-2026-001",
+      "userId": "USR-CIT-01",
+      "userEmail": "citizen.jane@scip.gov",
+      "userRole": "citizen",
+      "ipAddress": "192.168.1.150",
+      "details": "Citizen submitted observation: Water accumulation near Sector 4 Market",
+      "timestamp": "2026-10-03T07:15:00.000Z"
+    },
+    {
+      "id": "AUD-003",
+      "action": "AI_ANALYSIS_COMPLETED",
+      "module": "intelligence",
+      "recordId": "REP-2026-001",
+      "userId": "SYSTEM_AI",
+      "userEmail": "ai.pipeline@scip.internal",
+      "userRole": "admin",
+      "ipAddress": "127.0.0.1",
+      "details": "Automated TF-IDF classification: Category \"Water & Drainage\" (confidence: 0.94)",
+      "timestamp": "2026-10-03T07:16:00.000Z"
+    },
+    {
+      "id": "AUD-004",
+      "action": "INCIDENT_DETECTED",
+      "module": "incidents",
+      "recordId": "INC-2026-001",
+      "userId": "SYSTEM_AI",
+      "userEmail": "ai.agent@scip.internal",
+      "userRole": "admin",
+      "ipAddress": "127.0.0.1",
+      "details": "DBSCAN Spatio-temporal cluster formed from 4 community reports; proposed as Potential Incident INC-2026-001",
+      "timestamp": "2026-10-03T08:45:00.000Z"
+    },
+    {
+      "id": "AUD-005",
+      "action": "INCIDENT_REVIEWED",
+      "module": "incidents",
+      "recordId": "INC-2026-002",
+      "userId": "USR-AUTH-01",
+      "userEmail": "director@scip.gov",
+      "userRole": "authority",
+      "ipAddress": "192.168.1.105",
+      "details": "Authority Director reviewed and confirmed AI interpretation into active municipal work order",
+      "timestamp": "2026-10-02T19:30:00.000Z"
+    }
+  ],
+  "savedAt": "2026-11-09T14:07:26.921Z"
+}

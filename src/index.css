@@ -1,0 +1,76 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+:root {
+  --color-gov-navy: #153e63;
+  --color-gov-blue: #1f5f91;
+  --color-gov-blue-light: #eaf2f8;
+  --color-gov-bg: #f5f7fa;
+  --color-gov-surface: #ffffff;
+  --color-gov-border: #dce3ea;
+  --color-gov-text: #253443;
+  --color-gov-muted: #657586;
+  --color-gov-saffron: #e89b36;
+  --color-gov-green: #28834a;
+  --color-gov-error: #b42318;
+  --color-gov-warning: #a15c00;
+
+  /* Theme mappings */
+  --color-theme-primary: #153e63;
+  --color-theme-primary-hover: #1f5f91;
+  --color-theme-primary-light: #eaf2f8;
+  --color-theme-primary-subtle: #dbeafe;
+  --color-theme-primary-border: #dce3ea;
+  --color-theme-accent: #e89b36;
+  --color-theme-surface-bg: #f5f7fa;
+  --color-theme-surface-card: #ffffff;
+  --color-theme-text-primary: #253443;
+  --color-theme-text-muted: #657586;
+  --color-theme-border-muted: #dce3ea;
+}
+
+body {
+  background-color: var(--color-gov-bg);
+  color: var(--color-gov-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Government Portal Utility classes */
+.bg-gov-navy {
+  background-color: var(--color-gov-navy);
+}
+.bg-gov-blue {
+  background-color: var(--color-gov-blue);
+}
+.bg-gov-blue-light {
+  background-color: var(--color-gov-blue-light);
+}
+.text-gov-navy {
+  color: var(--color-gov-navy);
+}
+.text-gov-blue {
+  color: var(--color-gov-blue);
+}
+.text-gov-saffron {
+  color: var(--color-gov-saffron);
+}
+.text-gov-green {
+  color: var(--color-gov-green);
+}
+.border-gov-border {
+  border-color: var(--color-gov-border);
+}
+.border-gov-saffron {
+  border-color: var(--color-gov-saffron);
+}
+.border-gov-green {
+  border-color: var(--color-gov-green);
+}
+
+/* Tricolor accent bar used in Indian official portals */
+.gov-tricolor-bar {
+  background: linear-gradient(90deg, #e89b36 0%, #ffffff 50%, #28834a 100%);
+  height: 3px;
+}
+

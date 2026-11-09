@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  scip-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: scip-platform
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      - JWT_SECRET=scip-master-secure-jwt-secret-key-2026
+      - MONGODB_URI=mongodb://scip-mongo:27017/scip_database
+      - AI_SERVICE_URL=http://scip-ai:8000
+    depends_on:
+      - scip-mongo
+      - scip-ai
+    volumes:
+      - scip_data:/app/data
+    restart: unless-stopped
+
+  scip-mongo:
+    image: mongo:7-jammy
+    container_name: scip-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+
+  scip-ai:
+    build:
+      context: ./ai_service
+      dockerfile: Dockerfile
+    container_name: scip-ai-engine
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+volumes:
+  scip_data:
+  mongo_data:
